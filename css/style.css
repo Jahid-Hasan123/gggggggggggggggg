@@ -1,0 +1,537 @@
+@media (min-width:1200px){
+    .container{
+        max-width: 1320px;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+}
+/* ----------navber part start---------------- */
+.navbar{
+    background: transparent;
+    position: absolute !important;
+    width: 100%;
+    top: 50px;
+}
+.navbar .navbar-nav .nav-item {
+    margin-left: 68px !important;
+}
+.navbar .navbar-nav .nav-item:first-child{
+    margin-left: 0
+    !important;
+}
+nav .navbar-nav .nav-link{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff !important;
+}
+nav .navbar-nav .nav-link:hover{
+    color: #4756DF !important;
+    font-weight: 400;
+}
+.navbar .navbar-nav .nav-item .active{
+    color: #4756DF !important;
+    font-weight: 700;
+}
+.btn{
+    background: #6A4DF4 !important;
+    color: #ffffff !important;
+    border: none;
+    padding: 15px 42px !important;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .4s;
+    
+}
+.btn:hover{
+    background: transparent !important;
+    border-color: white !important;
+}
+/* ----------navber part end---------------- */
+/* ----------banner part start---------------- */
+#banner-part{
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+
+
+}
+#banner-part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 315px 0 176px !important;
+}
+#banner-part .overlay .main{
+    text-align: center;
+}
+#banner-part .overlay .main h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 120%;
+    color: #FFFFFF;
+    width: 950px;
+    margin: 0 auto 51px;
+}
+#banner-part .overlay .main p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    width: 400px;
+    margin: 0 auto 40px;
+    width: 621px;
+}
+#banner-part .overlay .main a{
+    background: #6A4DF4 !important;
+    color: #ffffff !important;
+    border: 1px solid #6A4DF4 !important;
+    padding: 15px 42px !important;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .4s;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+#banner-part .overlay .main a:hover{
+    background: transparent !important;
+    border-color: white !important;
+}
+/* ----------banner part end---------------- */
+/* ----------  about part start---------------- */
+#about{
+    padding: 171px 0 103px;
+}
+#about .countre-part{
+    background: #E0FFF9;
+    padding: 85px 50px;
+    border-radius: 20px;
+
+}
+#about .countre-part p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 120%;
+    color: #6A4DF4;
+}
+#about .countre-part h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+    color: #151515;
+    width: 360px;
+   
+}
+#about .countre-part h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #151515;
+    margin-left: 24px;
+    
+}
+#about .countre-part h5{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: #737373;
+    margin-left: 24px;
+    
+}
+/* ----------  about part end---------------- */
+/* ----------  sarvice part start---------------- */
+#sarvice {
+    padding: 150px 0 !important;
+}
+#sarvice .title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#sarvice .title h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #151515;
+}
+#sarvice .title p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #737373;
+    width: 400px;
+    margin: 0 auto;
+}
+#sarvice .main{
+    text-align: center;
+    padding: 80px 49px 46px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+#sarvice .main .main2{
+    width: 100%;
+}
+#sarvice .main:hover{
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+}
+#sarvice .main h2{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #151515;
+    margin: 40px 0 20px;
+}
+#sarvice .main p{
+   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #737373;
+}
+/* ----------  sarvice part start---------------- */
+/* ----------   work part start---------------- */
+#work{
+    padding: 150px 0;
+    background: #F3F3F3;
+}
+#work .title{
+    text-align: center;
+    margin-bottom: 106px;
+}
+#work .title h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    color: #151515;
+}
+#work .title p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #737373;
+    width: 620px;
+    margin: 0 auto;
+   
+}
+#work .main{
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+#work .main img{
+    border-radius: 0 0 20px 20px;
+    width: 100%;
+}
+#work .main .text{
+    text-align: center;
+    padding: 30px 42px;
+}
+#work .main .text h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+#work .main .text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #737373;
+}
+/* ----------  work part end---------------- */
+/* ---------- agenc part start---------------- */
+#agenc{
+    padding: 150px 0 106px;
+}
+#agenc .title{
+    text-align: center;
+    margin-bottom: 137px;
+}
+#agenc .title h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    color: #151515; 
+}
+#agenc .title p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #737373;
+    width: 802px;
+    margin: 0 auto ;
+    
+}
+#agenc .text h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #151515;
+}
+#agenc .text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #737373;
+    width: 344px;
+    margin-bottom: 88px;
+    text-align: left;
+}
+/* ----------  agenc part end---------------- */
+/* ---------- reviews part start---------------- */
+#reviews{
+    padding-bottom: 227px;
+}
+#reviews .title{
+    text-align: center;
+    margin-bottom: 130px;
+}
+#reviews .title h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #151515;
+
+}
+#reviews .title p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #737373;
+    width: 620px;
+    margin: 0 auto;
+    
+}
+#reviews .active{
+    background: #F4EFEF;
+    
+}
+#reviews .star{
+    border-radius: 30px;
+    padding: 54px 49px;
+}
+#reviews .star p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    width: 307px;
+    margin-top: 20px;
+}
+#reviews .star .icon{
+    margin-bottom: 30px;
+}
+#reviews .star .icon i{
+    color: #F9BD2C;
+}
+#reviews .star .imge{
+    display: flex;
+    align-items: center;
+    
+}
+#reviews .star .imge img{
+    margin-right: 20px;
+}
+#reviews .star .imge .text h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: #232323;
+    margin-bottom: 0;
+}
+#reviews .star .imge .text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    margin: 0;
+}
+/* ----------  reviews part end---------------- */
+/* ----------   contect part start---------------- */
+#contact{
+    padding: 150px 0;
+    background: #F3F3F3;
+
+}
+#contact h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #151515;
+    width: 470px; 
+}
+#contact p{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    width: 526px;
+}
+#contact .main{
+    width: 536px;
+    padding: 61px 43px;
+    border-radius: 20px;
+    background: #fff;
+}
+#contact .main form{
+    display: flex;
+    flex-direction: column;
+}
+#contact .main form button{
+    padding: 19px 0;
+    color: #ffffff;
+    background: #6A4DF4;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+#contact .main h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #151515;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#contact .main label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #151515;
+    margin-bottom: 10px;
+
+}
+#contact .main input{
+    padding: 19px 23px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #D0D0D0;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+/* ----------  contect part end---------------- */
+/* ----------  agenc part start---------------- */
+#agenc{
+    padding: 150px 0 46px;
+}
+#agenc .footer-left p{   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    margin-top: 30px;
+    width: 356px;
+    text-align: left;
+}
+#agenc h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #151515;
+}
+#agenc ul{
+    padding: 0;
+}
+#agenc ul li{
+    list-style: none;
+  
+}
+#agenc ul li a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #7B7B7B;
+    
+}
+#agenc hr{
+    margin: 50px 0 20px;
+}
+#agenc p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #D0D0D0;
+    text-align: center;
+    margin: 0;
+}
+/* ----------  agenc part end---------------- */

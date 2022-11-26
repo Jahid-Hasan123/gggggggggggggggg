@@ -1,0 +1,190 @@
+
+@media (max-width: 575.98px) { 
+
+.navbar-toggler i{
+    color: #ffffff;
+}
+.navbar-collapse {
+	text-align: center;
+    background: rgba(0, 0, 0, .9);
+    padding: 20px 0;
+}
+nav form{
+    
+   justify-content: center;
+}
+.navbar .navbar-nav .nav-item {
+	margin-left: 0 !important;
+}
+nav .navbar-nav .nav-link:hover {
+	color: #ffffff !important;
+	font-weight: 400;
+}
+.navbar-toggler {
+	border: 0;
+	box-shadow: none;
+}
+.navbar-toggler:focus {
+	box-shadow: none;
+}
+#banner-part .overlay {
+	padding: 132px 0 40px !important;
+}
+#banner-part .overlay .main h1 {
+	font-size: 40px;
+	width: auto;
+}
+#banner-part .overlay .main p {
+	font-size: 15px;
+	width: auto;
+	margin: 10px auto 20px;
+}
+#banner-part .overlay .main a {
+	padding: 10px 25px !important;
+}
+#about {
+	padding: 67px 0 0;
+}
+#about .countre-part p {
+	text-align: center;
+}
+#about .countre-part h2 {
+	font-size: 25px;
+	width: auto;
+	text-align: center;
+    line-height: 36px;
+    margin: 20px 0 30px;
+}
+#about .countre-part h3 {
+    font-size: 44px !important;
+	text-align: center;
+}
+#about .countre-part h5 {
+	text-align: center;
+}
+#about .countre-part {
+	padding: 39px 20px;
+}
+#sarvice {
+	padding: 52px 0 !important;
+}
+#sarvice .title h2 {
+	font-size: 26px;
+}
+#sarvice .title p {
+	width: auto ;
+}
+#sarvice .main h2 {
+	font-size: 21px;
+}
+#sarvice .main p {
+	font-size: 12px;
+	line-height: 20px;
+}
+#work {
+	padding: 55px 0;
+}
+#work .title {
+	margin-bottom: 47px;
+}
+#work .title h2 {
+	font-size: 25px;
+}
+#work .title p {
+    font-size: 13px;
+    line-height: 20px;
+	width: auto;
+}
+#work .main .text h2 {
+	font-size: 18px;
+}
+#work .main .text p {
+	font-size: 12px;
+	line-height: 19px;
+}
+#agenc {
+	padding: 59px 0 32px;
+}
+#agenc .title h2 {
+	font-size: 27px;
+	line-height: 34px;
+}
+#agenc .title p {
+	font-size: 9px;
+    line-height: 20px;
+	width: auto;
+}
+.left{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#agenc .text{
+    margin-left: 20px;
+}
+#agenc .text h2 {
+	font-size: 20px;
+}
+#agenc .text p {
+	font-size: 12px;
+	line-height: 15px;
+	width: auto;
+	margin-bottom: 0;
+}
+#agenc .right{
+    display: none;
+}
+#reviews .title h2 {
+	font-size: 28px;
+}
+#reviews .title p {
+	font-size: 11px;
+	line-height: 22px;
+	width: auto;
+}
+#reviews .star{
+    display: none;
+}
+#reviews {
+	padding-bottom: 0px;
+}
+#contact h2 {
+	font-size: 25px;
+	line-height: 33px;
+	width: auto;
+	text-align: center;
+}
+#contact p {
+	font-size: 12px;
+	line-height: 18px;
+	width: auto;
+	text-align: center;
+}
+#contact .main {
+	width: 341px;
+	padding: 35px 43px;
+}
+#contact .main h2 {
+	font-size: 23px;
+}
+#contact .main input {
+	padding: 9px 23px;
+}
+#contact .main form button {
+	padding: 8px 0;
+}
+#agenc .footer-left p {
+	font-size: 12px;
+	line-height: 21px;
+    margin-bottom: 20px;
+}
+#agenc ul li a {
+	font-size: 14px;
+}
+    
+ }
+
+@media (max-width: 767.98px) {  }
+@media (max-width: 991.98px) {  }
+@media (max-width: 1199.98px) {  }
+@media (max-width: 1399.98px) {  }
